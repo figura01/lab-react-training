@@ -1,4 +1,5 @@
 import React from 'react';
+import "./greetings.css";
 
 const Greettings = (props) => {
     console.log(props);
@@ -9,17 +10,12 @@ const Greettings = (props) => {
         switch(lang) {
             case "de": 
                 return "Hallo";
-            break;
             case "fr": 
                 return "Bonjour";
-            break;
             case "es": 
                 return "Ola";
-            break;
-            case "en": 
+            default:
                 return "Welcome";
-            break;
-            
         }
     };
 
