@@ -1,5 +1,6 @@
 import React from 'react';
 import "./credit-card.css";
+
 const CreditCard = (props) => {
     const {
         type,
@@ -37,6 +38,7 @@ const CreditCard = (props) => {
                 backgroundColor: bgColor,
                 color: color
             }}
+            
 
         >
             <div className="card-content">
